@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>secondpage</class>
+ <widget class="QDialog" name="secondpage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1317</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Login or Register</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="src.qrc">
+    <normaloff>:/images/ikon.png</normaloff>:/images/ikon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#secondpage {
+
+border-image:url(:/images/Web 1920 – 1.png)
+
+}</string>
+  </property>
+  <widget class="QWidget" name="border" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>3840</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#border {
+
+border-image: url(:/images/Rectangle 1.png)
+
+}</string>
+   </property>
+   <widget class="QWidget" name="ikon" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>0</y>
+      <width>131</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#ikon {
+
+border-image: url(:/images/ikon.png)
+
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>0</y>
+      <width>700</width>
+      <height>113</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>48</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label {
+
+color: rgb(110, 86, 79)
+
+
+}</string>
+    </property>
+    <property name="text">
+     <string>COOKINGPEDIA</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
+ <connections/>
+</ui>
